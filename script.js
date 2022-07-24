@@ -15,6 +15,8 @@
 //In when mjp mode is active, users need to win per the conventional method once and then draw to win
 //Direct draw with no previous winner = draw
 
+//test
+
 //Adding global variables
 var winCount = 0;
 var loseCount = 0;
