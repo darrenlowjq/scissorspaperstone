@@ -1,3 +1,20 @@
+//Instructions
+//Users should start first with entering their user name
+
+//Once initialized with user name, user can enter "scissor", "paper" or "stone" to play
+//Additionally, user can enter "reversed " + "scissor"/"paper"/"stone" to play, where the win/lose relationship is flipped
+
+//Users can toggle on and off reverse mode by entering "reverse"
+//In reverse mode, scissors beats stone, stone beats paper, paper beats scissors
+
+//Combination of user input "reversed" + reverse mode active effectively turns the win/lose relationship back to conventional
+
+//User can also enter "comp" as a means of auto-generating their user input choice
+
+//Users can toggle on and off muk-jji-ppa mode by entering "mjp"
+//In when mjp mode is active, users need to win per the conventional method once and then draw to win
+//Direct draw with no previous winner = draw
+
 //Adding global variables
 var winCount = 0;
 var loseCount = 0;
